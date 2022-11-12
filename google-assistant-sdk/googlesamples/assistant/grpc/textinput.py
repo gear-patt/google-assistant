@@ -189,6 +189,5 @@ def main(api_endpoint, credentials,
             if response_text:
                 click.echo('<@assistant> %s' % response_text)
 
-
 if __name__ == '__main__':
     main()
