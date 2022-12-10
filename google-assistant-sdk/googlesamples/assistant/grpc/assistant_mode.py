@@ -63,8 +63,8 @@ conversation_stream = audio_helpers.ConversationStream(
 )
 
 lang = 'en-US'
-device_model_id = 'smart-home-972bf-pi-3yr6fl'
-device_id  = 'smart-home-972bf'
+device_model_id = 'smart-home-demo-73745-pi-demo-dcqjs5'
+device_id  = 'smart-home-demo-73745'
 display = False
 grpc_deadline = 185
 device_handler = device_helpers.DeviceRequestHandler(device_id)

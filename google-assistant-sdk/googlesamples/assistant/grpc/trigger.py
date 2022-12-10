@@ -12,7 +12,7 @@ while(1):
             MyText = MyText.lower()
             print(MyText)
             if MyText == "activate":
-                call(["python3", "assistant_mode.py"])
+                call(["python3", "/home/pi/assistant-sdk-python/google-assistant-sdk/googlesamples/assistant/grpc/assistant_mode.py"])
              
     except sr.RequestError as e:
         print("Could not request results; {0}".format(e))
